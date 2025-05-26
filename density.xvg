@@ -1,0 +1,39 @@
+# This file was created Mon Mar 24 13:58:47 2025
+# Created by:
+#             :-) GROMACS - gmx energy, 2023.5-plumed_2.9.2-dev (-:
+# 
+# Executable:   /usr/local/gromacs/bin/gmx
+# Data prefix:  /usr/local/gromacs
+# Working dir:  /home/kashitza/Proteins/6x1A/MD_lig
+# Command line:
+#   gmx energy -f npt.edr -o density.xvg
+# gmx energy is part of G R O M A C S:
+#
+# GROningen Mixture of Alchemy and Childrens' Stories
+#
+@    title "GROMACS Energies"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "(kg/m^3)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "Density"
+    0.000000  989.844849
+    1.000000  1012.057983
+    2.000000  1003.140564
+    3.000000  1008.604309
+    4.000000  1006.766113
+    5.000000  1008.159851
+    6.000000  1009.606567
+    7.000000  1007.711304
+    8.000000  1008.863647
+    9.000000  1009.741943
+   10.000000  1008.558716
+   11.000000  1007.857727
+   12.000000  1007.915710
+   13.000000  1009.482361
+   14.000000  1007.725098

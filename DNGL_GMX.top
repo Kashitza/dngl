@@ -1,0 +1,20 @@
+; DNGL_GMX.top created by acpype (v: 2022.6.6) on Sun Mar 23 19:37:54 2025
+
+[ defaults ]
+; nbfunc        comb-rule       gen-pairs       fudgeLJ fudgeQQ
+1               2               yes             0.5     0.8333333333
+
+; Include DNGL_GMX.itp topology
+#include "DNGL_GMX.itp"
+
+; Ligand position restraints
+#ifdef POSRES_LIG
+#include "posre_DNGL.itp"
+#endif
+
+[ system ]
+ DNGL
+
+[ molecules ]
+; Compound        nmols
+ DNGL             1     
